@@ -1,3 +1,10 @@
 article p {
-    color: blue;
+    color: gold;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
