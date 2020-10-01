@@ -1,7 +1,7 @@
 article p {
     color: gold;
     width: 50%;
-
+    text-align: justify;
     
 }
 section::after{
@@ -9,21 +9,23 @@ section::after{
     clear: both;
     display: table;
 }
-h1{
+header{
     color: gold;
     text-align: center;
     font-style: italic;
     font-size: xx-large;
     font-family: cursive;
+    text-shadow: 5px 5px white;
+
 }
 h2{
     color: goldenrod;
 }
 nav{
-    color: #EFD4F7 ;
+    color:gray ;
 }
 a{
-    color: #EFD4F7;
+    color: gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,10 +37,19 @@ body{
     justify-content: center;
     align-items: center;
     font-size:large ;
+    outline-style:ridge;
+    outline-color: goldenrod;
+    outline-width: 10px;
     
    
 }
 section{
     background-color: black;
     height: 900px;
+    align-items: center;
+}
+img{
+    border-color: gold;
+    border-radius: 15%;
+    border-style: ridge;
 }
